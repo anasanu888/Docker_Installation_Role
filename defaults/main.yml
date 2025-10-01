@@ -1,0 +1,14 @@
+---
+# packages to install for Docker on AL2023 - can be overridden by caller
+docker_packages:
+  - docker
+
+# Whether to install docker-compose (via pip)
+install_docker_compose: true
+docker_compose_via_pip: true
+# Default pip package to install for docker-compose (change if you prefer a specific version)
+docker_compose_package: docker-compose
+
+# User to add to docker group; set to "" to skip
+docker_user: ec2-user
+

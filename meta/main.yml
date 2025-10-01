@@ -1,0 +1,16 @@
+galaxy_info:
+  author: Anas_Shaik
+  description: Install Docker and (optionally) Docker Compose on Amazon Linux 2023
+  company: Self
+  license: MIT
+  min_ansible_version: 2.12
+  platforms:
+    - name: Amazon
+      versions:
+        - "2023"
+  galaxy_tags:
+    - docker
+    - amazonlinux
+    - amazonlinux2023
+  dependencies: []
+
